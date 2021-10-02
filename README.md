@@ -2,7 +2,7 @@
 ================
 
 Buiding docker image:<br />
-Run commends in solution directory
+Run commands in solution directory
 ```docker
 #docker build -f "PROJECT_PATH\Dockerfile" -t IMAGE_NAME:dev "SOLUTION_PATH"
 _> docker build -f ".\MinimalApi\Dockerfile" -t minimal-api:dev "."
